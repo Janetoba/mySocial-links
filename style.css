@@ -1,0 +1,72 @@
+body {
+  background-color: hsl(0, 0%, 8%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  height: 100%;
+  font-size: 14px;
+  text-align: center;
+}
+
+.container {
+  background-color: hsl(0, 0%, 12%);
+  padding: 20px;
+  border-radius: 10px;
+  width: 375px;
+  margin: 50px auto;
+}
+
+.img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #333;
+}
+
+#name {
+  font-size: 20px;
+  margin-bottom: 8px;
+  color: #fff;
+  font-weight: 700;
+}
+
+#location {
+  color: hsl(75, 94%, 57%);
+  margin-bottom: 25px;
+  font: 14px;
+  font-weight: 600;
+}
+
+#about-me {
+  margin-bottom: 12px;
+  font-size: 13px;
+  color: #fff;
+}
+
+.social-accounts .btn {
+  display: flex;
+  flex-direction: column;
+  background-color: #333;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 15px;
+  gap: 50px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.social-accounts .btn:hover {
+  background-color: hsl(75, 94%, 57%);
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
